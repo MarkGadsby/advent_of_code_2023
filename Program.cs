@@ -17,7 +17,7 @@
     Console.WriteLine($"\t\tDay Two - part II:");
     solve.part_two();
     sr.Close();
-/*
+
     Console.WriteLine($"\t\tDay Three - part I:");
 //    sr = new StreamReader("TestData.txt");
     sr = new StreamReader("Day_03_Data.txt");
@@ -34,6 +34,7 @@
     Console.WriteLine($"\t\tDay Four - part II:");
     solve.part_two();
     sr.Close();
+/*
 
     Console.WriteLine($"\t\tDay Five - part I:");
     sr = new StreamReader("Day_05_Data.txt");
