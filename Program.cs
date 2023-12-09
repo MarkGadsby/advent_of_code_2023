@@ -19,7 +19,6 @@
     sr.Close();
 
     Console.WriteLine($"\t\tDay Three - part I:");
-//    sr = new StreamReader("TestData.txt");
     sr = new StreamReader("Day_03_Data.txt");
     solve = new SolveDayThree(sr);
     solve.part_one();
@@ -27,14 +26,16 @@
     solve.part_two();
     sr.Close();
 
+
     Console.WriteLine($"\t\tDay Four - part I:");
+//    sr = new StreamReader("TestData.txt");
     sr = new StreamReader("Day_04_Data.txt");
     solve = new SolveDayFour(sr);
     solve.part_one();
-    Console.WriteLine($"\t\tDay Four - part II:");
+
+/*    Console.WriteLine($"\t\tDay Four - part II:");
     solve.part_two();
     sr.Close();
-/*
 
     Console.WriteLine($"\t\tDay Five - part I:");
     sr = new StreamReader("Day_05_Data.txt");
@@ -69,16 +70,26 @@
     Console.WriteLine($"\t\tDay Eight - part II:");
     solve.part_two();
     sr.Close();
-
+*/
     Console.WriteLine($"\n\t\tDay Nine - part I:");
-//    sr = new StreamReader("Day_09_Data.txt");
-    sr = new StreamReader("TestData.txt");
+    sr = new StreamReader("Day_09_Data.txt");
+//    sr = new StreamReader("TestData.txt");
     solve = new SolveDayNine(sr);
     solve.part_one();
     Console.WriteLine($"\t\tDay Nine - part II:");
     solve.part_two();
     sr.Close();
-    */
+
+    Console.WriteLine($"\n\t\tDay Ten - part I:");
+//    sr = new StreamReader("Day_10_Data.txt");
+    sr = new StreamReader("TestData.txt");
+    solve = new SolveDayTen(sr);
+    solve.part_one();
+    Console.WriteLine($"\t\tDay Ten - part II:");
+    solve.part_two();
+    sr.Close();
+
+
 }
 catch(Exception ex)
 {
